@@ -11,6 +11,6 @@ export function crearFlocs() {
 function crearFloc() {
   return {
     x: -100 * Math.random(),
-    y: -40 + 100 * Math.random(),
+    y: -40 + 300 * Math.random(),
   };
 }

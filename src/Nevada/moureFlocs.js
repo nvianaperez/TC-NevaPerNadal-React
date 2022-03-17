@@ -1,7 +1,15 @@
 import { FRAME_RATE } from "./constants";
 
 /*****MOURE FLOCS*****/
+
+let vent = 0;
+
 export function moureFlocs(flocs) {
+  vent = Math.min(
+    2,
+    Math.max(-2, vent + (20 / FRAME_RATE) * Math.random() - 0.5)
+  );
+
   return flocs.map(moureFloc);
 }
 function moureFloc(floc) {
