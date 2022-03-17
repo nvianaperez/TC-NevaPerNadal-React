@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TC-NevaPerNadal-React/static/css/main.99754d6e.css",
+    "main.js": "/TC-NevaPerNadal-React/static/js/main.3ffac3fa.js",
+    "static/js/787.f4582a2d.chunk.js": "/TC-NevaPerNadal-React/static/js/787.f4582a2d.chunk.js",
+    "static/media/img_christmas-tree.jpg": "/TC-NevaPerNadal-React/static/media/img_christmas-tree.d94c7a0efc221afd28a8.jpg",
+    "index.html": "/TC-NevaPerNadal-React/index.html",
+    "main.99754d6e.css.map": "/TC-NevaPerNadal-React/static/css/main.99754d6e.css.map",
+    "main.3ffac3fa.js.map": "/TC-NevaPerNadal-React/static/js/main.3ffac3fa.js.map",
+    "787.f4582a2d.chunk.js.map": "/TC-NevaPerNadal-React/static/js/787.f4582a2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99754d6e.css",
+    "static/js/main.3ffac3fa.js"
+  ]
+}
