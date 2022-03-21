@@ -15,7 +15,8 @@ export function moureFlocs(flocs) {
 function moureFloc(floc) {
   let x = floc.x + (10 / FRAME_RATE) * Math.random();
   if (x > 100) x = -10;
-  let y = floc.y + (10 / FRAME_RATE) * Math.random();
-  if (y > 100) x = -10;
+  let y = floc.y + vent * (10 / FRAME_RATE) * Math.random();
+  if (y > 110) y = -10;
+  if (y < -10) y = 110;
   return { ...floc, x: x, y: y };
 }

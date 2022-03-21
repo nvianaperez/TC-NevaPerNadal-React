@@ -10,7 +10,8 @@ export function crearFlocs() {
 }
 function crearFloc() {
   return {
-    x: -100 * Math.random(),
-    y: -40 + 300 * Math.random(),
+    x: -10 - 100 * Math.random(),
+    y: -10 + 120 * Math.random(),
+    //aixo és el que fa que els copos es disgreguin quan es creen i no vagin tots junts (-100 i +120)
   };
 }
